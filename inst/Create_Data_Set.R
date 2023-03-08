@@ -23,7 +23,7 @@ data_file <- read.csv("inst/file.csv") %>%
 
 ####  Make Graph                                                       ####
 
-region_selected <- "Europe"
+region_selected <- "N. America"
 plot_title <- paste0("Line Chart for Region = ", region_selected)
 
 data_file %>%
